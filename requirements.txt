@@ -1,0 +1,15 @@
+# Core
+langgraph>=0.2
+langchain-core>=0.3
+pyyaml>=6
+
+# State / checkpoint + RAG (architecture prose as supplementary context)
+psycopg[binary]>=3.1
+langgraph-checkpoint-postgres>=1
+pgvector>=0.2
+
+# Backends the primitives talk to (fill in as you implement)
+google-cloud-monitoring>=2
+google-cloud-logging>=3
+# datadog-api-client>=2          # if Datadog APM/monitors are used
+# requests / atlas / argocd clients as needed
